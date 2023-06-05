@@ -4,8 +4,17 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-import './bootstrap';
+
+require("./bootstrap");
 import { createApp } from 'vue';
+
+import 'startbootstrap-sb-admin-2/css/sb-admin-2.css';
+import 'startbootstrap-sb-admin-2/vendor/jquery/jquery.min.js'
+import 'startbootstrap-sb-admin-2/vendor/bootstrap/js/bootstrap.bundle.min.js'
+import 'startbootstrap-sb-admin-2/vendor/jquery-easing/jquery.easing.min.js'
+import 'startbootstrap-sb-admin-2/js/sb-admin-2.js';
+
+
 
 /**
  * Next, we will create a fresh Vue application instance. You may then begin
